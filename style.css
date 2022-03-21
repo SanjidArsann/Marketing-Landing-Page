@@ -1,0 +1,95 @@
+body{
+    margin-top: 5px;
+    padding: 0px 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.logo img{
+    padding-right: 10px;
+    height: 40px;
+    
+}
+.logo h2{
+    margin-top: 0;
+    padding-top: 5px;
+    font-size: 25px;
+}
+#dot{
+    color: #ff8e04;
+}
+.navigation ul a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#393e44;
+    position: relative;
+}
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    width:0%;
+    height: 3px;
+    background-color: #ff8e04;
+    bottom: -6px;
+    transition: all ease-in-out 0.5s;
+}
+.navigation a:hover{
+    color: #ff8e04;
+}
+.navigation a:hover::after{
+    width:60%;
+}
+.login-btn{
+    margin-top: 10px;
+}
+.login-btn a{
+    padding-left: 15px;
+    
+}
+#login{
+    background-image: linear-gradient(to right, #fff , #fff);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding:10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff8e04;
+}
+#login:hover{
+    background-image:linear-gradient(to right, #ff6702 , #f3ae59);
+    border-radius: 20px;
+    border: none;
+    padding:10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+#sign-up{
+    background-image:linear-gradient(to right, #ff6702 , #f3ae59);
+    border-radius: 20px;
+    border: none;
+    padding:10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+#sign-up:hover{
+    background-image: linear-gradient(to right, #fff , #fff);
+    border: 1px solid gray;
+    color: #ff8e04;
+}
