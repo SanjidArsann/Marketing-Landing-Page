@@ -201,7 +201,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.fa-brands{
+.fa-searchengin{
    background-color: #c7ccd1;
    padding: 10px;
    border-radius: 50%;
@@ -252,14 +252,14 @@ body{
 }
 .blog-post{
     width: 30% ;
-    height: 550px;
+    height: 500px;
     margin: 0px 20px;
     border-radius: 10px;
     
 }
 .blog-post img{
-    width: 404.688px;
-    height: 400px;
+    width: 368.688px;
+    height: 300px;
     border-radius: 10px;
 }
 .blog-txt{
@@ -267,10 +267,113 @@ body{
 }
 .blog-post:hover{
     width: 30% ;
-    height: 550px;
+    height: 500px;
     margin: 0px 20px;
     box-shadow: 5px 10px 18px #888888;
     border-radius: 10px;
     transform: scale(1.1);
     transition: transform 1s;
+}
+.trdcon{
+    padding: 0px 60px;
+}
+.svn-container{
+    display: flex;
+    background-color: #F4F7FE;
+    margin: 0px 70px;
+    padding: 80px 80px;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+.half{
+    width: 50%;
+}
+.half h2{
+    font-size: xx-large;
+}
+.sub{
+    text-align: center;
+    padding-top:70px;
+}
+.sub input{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding:10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.sub input:hover{
+   transform: scale(1.1);
+   transition: transform 2s;
+   border:0.5px solid #ff8e04;
+   padding:10px 25px;
+}
+.eight-container{
+    background-color: #052347;
+    padding: 0px 60px;
+    padding-top: 40px;
+    color: #fff;
+}
+.one-forth img{
+    width:12%;
+}
+.one-forth{
+    width: 30%;
+    margin-right:100px;
+}
+.one-forth p{
+    color: #72777c;
+}
+.one-forth a{
+    text-decoration: none;
+    color: #fff;
+}
+.fotterlogo{
+    display:flex;
+}
+.fa-brands{
+    background-color: rgb(22, 135, 228);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+}
+.fa-brands:hover{
+    background-color: rgb(22, 135, 228);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+    transform: scale(1.05);
+}
+.footer-content{
+    margin-left: 60px;
+}
+.footer-content a{
+    display: block;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #72777c;
+}
+.footer-content a:hover{
+    display: block;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #72777c;
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.footer{
+    display: flex;
+    border-bottom:1px solid blue;
+}
+.footer-content p{
+    display: block;
+    padding: 8px 0px;
+    text-decoration: none;
+    color: #72777c;
+}
+.down-footer p{
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #72777c;
 }
