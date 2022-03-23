@@ -1,12 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
-    padding: 0px 0px;
-    margin: 20px;
+    padding: 10px 0px;
+    margin: 0px;
 }
 .container{
     display: flex;
     justify-content: space-between;  
+    padding: 0px 60px;
 }
 .logo{
     display: inline-flex;
@@ -52,7 +53,7 @@ body{
     color: #ff8e04;
 }
 .navigation a:hover::after{
-    width:60%;
+    width:30%;
 }
 .login-btn{
     margin-top: 10px;
@@ -101,12 +102,15 @@ body{
 .bdy-container{
     display: flex;
     margin-bottom: 80px;
-    
+    padding:0px 60px;
 }
 .half-width-txt{
     width: 50%;
     font-size: 20px;
     margin-top: 50px;
+}
+.half-width-txt p{
+    color: #888888;
 }
 
 .h-clr{
@@ -117,7 +121,7 @@ body{
 }
 .half-width-img{
     width: 50%;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .fa-circle-play{
     width: 200px;
@@ -178,11 +182,15 @@ body{
 }
 .trd-container{
     margin-top: 80px;
+    margin-bottom: 80px;
     
+}
+.trd{
+    padding: 0px 60px;
 }
 .onethrd-width{
     width: 30%;
-    height: 180px;
+    height: 200px;
     border: 1px solid #c7ccd1;
     text-align: center;
     padding: 2%;
@@ -200,7 +208,7 @@ body{
 }
 .onethrd-width:hover{
     width: 30%;
-    height: 180px;
+    height: 200px;
     border: 1px solid #fff;
     text-align: center;
     padding: 2%;
@@ -215,3 +223,54 @@ body{
     padding: 10px;
     border-radius: 50%;
  }
+.frth-container{
+    display: flex;
+    margin-bottom: 80px;
+    padding: 0px 60px;  
+}
+.half-width-frthimg{
+    width: 50%;
+    margin-left: 50px;
+}
+.fith-container{
+    display: flex;
+    background-color:#F4F7FE ;
+    padding: 50px 20px;
+
+}
+.fth-txt{
+    padding-left: 80px;
+}
+.six-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0px 40px;
+}
+#num{
+    color: #ff8e04;
+}
+.blog-post{
+    width: 30% ;
+    height: 550px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    
+}
+.blog-post img{
+    width: 404.688px;
+    height: 400px;
+    border-radius: 10px;
+}
+.blog-txt{
+    padding: 20px;
+}
+.blog-post:hover{
+    width: 30% ;
+    height: 550px;
+    margin: 0px 20px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: transform 1s;
+}
